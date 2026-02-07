@@ -166,6 +166,17 @@ input[type="email"] {
     background-color: #181919;
     border-radius: 2rem;
 }
+.image{
+    display: flex;
+    font-size: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
 
 
 .card1{
@@ -178,4 +189,55 @@ input[type="email"] {
     margin-top: 70px;
     border-radius: 40px;
     
+}
+.grid-container3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+  gap: clamp(1rem, 2vw, 2rem);
+  margin-bottom: clamp(8rem, 15vw, 25rem);
+}
+.grid-item3 {
+  font-size: 40px;
+  background-color: rgb(35, 34, 34);
+  min-height: clamp(25rem, 35vw, 35rem);
+  padding: clamp(2rem, 4vw, 4rem);
+  color: #edecec;
+  border-radius: clamp(1rem, 3vw, 2rem);
+  text-align: left;
+  cursor: pointer;
+  
+}
+ 
+.grid-item3 a{
+  text-decoration: none;
+  color: azure;
+   
+}
+.grid-item3 a:hover {
+  color: rgb(59, 145, 59)
+}
+ .grid3-img {
+  width: 60rem;      /* increase container */
+  height: 50rem;
+  margin-top: 2rem;
+  padding-right: 2rem;
+}
+
+.grid3-img img {
+  width: 100%;       /* image fills div */
+  height: 100%;
+  object-fit: contain; /* keeps aspect ratio */
+}
+.abc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    padding-left: 400px;
+}
+.abc img{
+    justify-content: center;
+    width: 100%;
+    height: auto;
 }
